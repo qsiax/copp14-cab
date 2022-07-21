@@ -1,0 +1,43 @@
+.blog {
+
+	&__container {}
+
+	&__body {}
+
+	&__block {
+		margin-top: 64px;
+		margin-bottom: 72px;
+	}
+
+	&__heading {
+		font-size: 36px;
+		line-height: 40px;
+		font-weight: 700;
+		position: relative;
+
+		&::before {
+			content: '';
+			position: absolute;
+			width: 64px;
+			height: 4px;
+			background: $primary-color;
+			left: 0;
+			bottom: -28px;
+			border-radius: 10px;
+		}
+	}
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 100px;
+	}
+
+	&__text {
+		max-width: 600px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	&__video {}
+}

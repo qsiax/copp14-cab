@@ -1,0 +1,22 @@
+@media (max-width: 1030px) {
+	._container {
+		max-width: 705px;
+		padding: 0px 10px;
+	}
+
+	.main__slider-item {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.main__slider-item-block {
+		margin: 0;
+	}
+
+	.main__slider-item-heading {
+		min-width: 680px;
+		margin-left: 10px;
+	}
+}

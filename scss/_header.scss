@@ -1,0 +1,35 @@
+.header {
+
+	&__container {}
+
+	&__body {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin: 32px 0px;
+		margin-top: 32px;
+		margin-bottom: 100px;
+	}
+
+	&__block {
+		display: flex;
+		align-items: center;
+	}
+
+	&__logo {
+		width: 48px;
+		height: 48px;
+		background: url(../source/logo.svg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-right: 15px;
+		cursor: pointer;
+	}
+
+	&__logo-descriptions {
+		font-size: 18px;
+		font-weight: 700;
+		max-width: 200px;
+		cursor: pointer;
+	}
+}
